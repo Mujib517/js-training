@@ -32,3 +32,8 @@ fun();
 // git init 
 // git pull
 // git push
+// git clone [addr]
+
+// git add .
+// git commit -m "message"
+// git push
