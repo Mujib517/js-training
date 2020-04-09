@@ -20,13 +20,13 @@
 
 // 3 web svc 
 // Countries -> State -> City -> ZipCode
-function addAsync(a, b, phoneNumber) {
+function addAsync(a, b, callback) {
     console.log("Started");   // started
 
     // db call
     setTimeout(function () {
         var content = a + b;
-        phoneNumber(content, 100);
+        callback(content, 100);
     }, 3000);     // 1 sec //after delay
 
     console.log("ended");
